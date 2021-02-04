@@ -26,9 +26,13 @@ void test()
 threads.add_thread(test, 10);//call test function at each 10s.
 ```
 
-Finish task.
+Start tasks.
 ```
 threads.exec();
+```
+
+After tasks finish join all threads.
+```
 threads.join_all();
 ```
 
