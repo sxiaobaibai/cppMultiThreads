@@ -28,8 +28,8 @@ threads.add_thread(test, 10);//call test function at each 10s.
 
 Finish task.
 ```
-	threads.exec();
-	threads.join_all();
+threads.exec();
+threads.join_all();
 ```
 
 ## Define your own timer
