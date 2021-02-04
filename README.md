@@ -8,8 +8,8 @@ For example, you can set frequencies such as 0.1ms for basic controller, 1.0ms f
 Here is how to use the code.
 Firstly, include the headers.
 ```
-#include "/path/to/multi_thread.h"
-#include "/path/to/thread_timer.h"
+#include "/path/to/multi_thread.h"//the header file is located in ./inc/
+#include "/path/to/thread_timer.h"//the header file is located in ./inc/
 ```
 Create an instance of thread_timer object and MultiThread object.
 ```
