@@ -1,9 +1,12 @@
 # Simple C++ realtime multi threads
 
-## basic usaage
+## basic usage
 This is a header only soft realtime multi thread program.
+By using this program, you can specify multiple frequencies for multiple threads.
+For example, you can set frequencies such as 0.1ms for basic controller, 1.0ms for uppper layer's controller and aperiodic displaying function separately. 
 
-Include the headers
+Here is how to use the code.
+Firstly, include the headers.
 ```
 #include "/path/to/multi_thread.h"
 #include "/path/to/thread_timer.h"
