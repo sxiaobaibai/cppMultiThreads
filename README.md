@@ -2,8 +2,8 @@
 
 ## basic usage
 This is a header only soft realtime multi thread program.
-By using this program, you can specify multiple frequencies for multiple threads.
-For example, you can set frequencies such as 0.1ms for basic controller, 1.0ms for uppper layer's controller and aperiodic displaying function separately. 
+By using this program, you can choose multiple sample frequencies for multiple threads.
+For example, you can set frequencies such as 0.1ms for basic controller, 1.0ms for uppper layer's controller, aperiodic displaying function separately and so on. 
 
 Here is how to use the code.
 Firstly, include the headers.
